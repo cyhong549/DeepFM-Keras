@@ -3,7 +3,7 @@
 DeepFM written by Keras[1], similary with the tensorflow version by ChenglongChen "https://github.com/ChenglongChen/tensorflow-DeepFM"
 
 Usage:
-
+---
 ###load data and divide to train and test
 dfTrain = pd.read_csv("data/train.csv")
 dfTrain = dfTrain.iloc[0:int(0.7*dfTrain.shape[0]),:]
@@ -20,7 +20,7 @@ target_columns = ['target']
 
 
 Example:
-
+---
 Folder example includes an example usage of DeepFM models for Porto Seguro's Safe Driver Prediction competition on Kaggle.
 
 Please download the data from the competition website and put them into the example/data folder.
@@ -30,7 +30,7 @@ To train DeepFM model for this dataset, run
 $ python keras_FM.py
 
 Support:
-
+---
 Support the auc loss and log_loss as metrics
 
 
